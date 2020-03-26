@@ -3,27 +3,67 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		002B8580242C8A150039D1C2 /* SchoolTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B857F242C8A150039D1C2 /* SchoolTableViewCell.swift */; };
+		002B8582242C920C0039D1C2 /* Storyboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B8581242C920C0039D1C2 /* Storyboarding.swift */; };
 		004F21932429D096006058CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F21922429D096006058CE /* AppDelegate.swift */; };
-		004F21952429D096006058CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F21942429D096006058CE /* ViewController.swift */; };
 		004F21982429D096006058CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 004F21962429D096006058CE /* Main.storyboard */; };
 		004F219B2429D096006058CE /* Educate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 004F21992429D096006058CE /* Educate.xcdatamodeld */; };
 		004F219D2429D098006058CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 004F219C2429D098006058CE /* Assets.xcassets */; };
 		004F21A02429D098006058CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 004F219E2429D098006058CE /* LaunchScreen.storyboard */; };
+		004F21AE242A999E006058CE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 004F21AD242A999E006058CE /* GoogleService-Info.plist */; };
+		004F21B7242B4028006058CE /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F21B3242B4028006058CE /* SignUpViewController.swift */; };
+		004F21B8242B4028006058CE /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F21B4242B4028006058CE /* ForgotPasswordViewController.swift */; };
+		004F21B9242B4028006058CE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F21B5242B4028006058CE /* LoginViewController.swift */; };
+		004F21BC242B4071006058CE /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F21BB242B4071006058CE /* Services.swift */; };
+		004F21BE242B407E006058CE /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F21BD242B407E006058CE /* AuthViewModel.swift */; };
+		004F21C1242B49ED006058CE /* AuthRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F21C0242B49ED006058CE /* AuthRouter.swift */; };
+		004F21C8242B4C94006058CE /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F21C7242B4C94006058CE /* EventsViewController.swift */; };
+		004F21CA242B5713006058CE /* EventTablViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F21C9242B5713006058CE /* EventTablViewCell.swift */; };
+		004F21CC242B5A64006058CE /* EventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F21CB242B5A64006058CE /* EventModel.swift */; };
+		004F21CE242B7DD3006058CE /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F21CD242B7DD3006058CE /* SplashViewController.swift */; };
+		00E5E122242CAC6E004C8F6E /* EventsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E5E121242CAC6E004C8F6E /* EventsViewModel.swift */; };
+		00E5E124242CC420004C8F6E /* UserDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E5E123242CC420004C8F6E /* UserDetails.swift */; };
+		00E5E127242CD93D004C8F6E /* KeyboardToolbarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E5E126242CD93C004C8F6E /* KeyboardToolbarButton.swift */; };
+		00E5E129242CD94E004C8F6E /* KeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E5E128242CD94E004C8F6E /* KeyboardToolbar.swift */; };
+		00FD627A242C6ACF00B6997B /* SchoolsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FD6279242C6ACF00B6997B /* SchoolsViewController.swift */; };
+		00FD627C242C6BDF00B6997B /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FD627B242C6BDF00B6997B /* School.swift */; };
+		55A6FA9CE6972AEE162699F3 /* Pods_Educate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82BF1174064CD309926F8DFE /* Pods_Educate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		002B857F242C8A150039D1C2 /* SchoolTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolTableViewCell.swift; sourceTree = "<group>"; };
+		002B8581242C920C0039D1C2 /* Storyboarding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboarding.swift; sourceTree = "<group>"; };
 		004F218F2429D096006058CE /* Educate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Educate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		004F21922429D096006058CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		004F21942429D096006058CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		004F21972429D096006058CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		004F219A2429D096006058CE /* Educate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Educate.xcdatamodel; sourceTree = "<group>"; };
 		004F219C2429D098006058CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		004F219F2429D098006058CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		004F21A12429D098006058CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		004F21AD242A999E006058CE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		004F21B3242B4028006058CE /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		004F21B4242B4028006058CE /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		004F21B5242B4028006058CE /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		004F21BB242B4071006058CE /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		004F21BD242B407E006058CE /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		004F21C0242B49ED006058CE /* AuthRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRouter.swift; sourceTree = "<group>"; };
+		004F21C7242B4C94006058CE /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		004F21C9242B5713006058CE /* EventTablViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTablViewCell.swift; sourceTree = "<group>"; };
+		004F21CB242B5A64006058CE /* EventModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventModel.swift; sourceTree = "<group>"; };
+		004F21CD242B7DD3006058CE /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		00E5E121242CAC6E004C8F6E /* EventsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewModel.swift; sourceTree = "<group>"; };
+		00E5E123242CC420004C8F6E /* UserDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetails.swift; sourceTree = "<group>"; };
+		00E5E126242CD93C004C8F6E /* KeyboardToolbarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardToolbarButton.swift; sourceTree = "<group>"; };
+		00E5E128242CD94E004C8F6E /* KeyboardToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardToolbar.swift; sourceTree = "<group>"; };
+		00FD6279242C6ACF00B6997B /* SchoolsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolsViewController.swift; sourceTree = "<group>"; };
+		00FD627B242C6BDF00B6997B /* School.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = School.swift; sourceTree = "<group>"; };
+		25D9DD1BCECA449C2B757F9C /* Pods-Educate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Educate.release.xcconfig"; path = "Target Support Files/Pods-Educate/Pods-Educate.release.xcconfig"; sourceTree = "<group>"; };
+		5DB87744800A8CBFEE622C58 /* Pods-Educate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Educate.debug.xcconfig"; path = "Target Support Files/Pods-Educate/Pods-Educate.debug.xcconfig"; sourceTree = "<group>"; };
+		82BF1174064CD309926F8DFE /* Pods_Educate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Educate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55A6FA9CE6972AEE162699F3 /* Pods_Educate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +83,8 @@
 			children = (
 				004F21912429D096006058CE /* Educate */,
 				004F21902429D096006058CE /* Products */,
+				0A94810B9E7DEC6E79A3EE9E /* Pods */,
+				69D1D89999608BEF7F6B1AFD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +99,8 @@
 		004F21912429D096006058CE /* Educate */ = {
 			isa = PBXGroup;
 			children = (
-				004F21922429D096006058CE /* AppDelegate.swift */,
-				004F21942429D096006058CE /* ViewController.swift */,
+				004F21AF242B4028006058CE /* Source */,
+				004F21AD242A999E006058CE /* GoogleService-Info.plist */,
 				004F21962429D096006058CE /* Main.storyboard */,
 				004F219C2429D098006058CE /* Assets.xcassets */,
 				004F219E2429D098006058CE /* LaunchScreen.storyboard */,
@@ -67,6 +110,138 @@
 			path = Educate;
 			sourceTree = "<group>";
 		};
+		004F21AF242B4028006058CE /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				004F21C3242B4C7E006058CE /* Dashboard */,
+				004F21922429D096006058CE /* AppDelegate.swift */,
+				004F21B0242B4028006058CE /* Auth */,
+				004F21BA242B405E006058CE /* Services */,
+				00E5E125242CD92C004C8F6E /* Utillitiy */,
+				004F21BF242B49E0006058CE /* Router */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		004F21B0242B4028006058CE /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				004F21B1242B4028006058CE /* ViewModel */,
+				004F21B2242B4028006058CE /* Controller */,
+				004F21B6242B4028006058CE /* Model */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		004F21B1242B4028006058CE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				004F21BD242B407E006058CE /* AuthViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		004F21B2242B4028006058CE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				004F21B3242B4028006058CE /* SignUpViewController.swift */,
+				00FD6279242C6ACF00B6997B /* SchoolsViewController.swift */,
+				002B857F242C8A150039D1C2 /* SchoolTableViewCell.swift */,
+				004F21CD242B7DD3006058CE /* SplashViewController.swift */,
+				004F21B4242B4028006058CE /* ForgotPasswordViewController.swift */,
+				004F21B5242B4028006058CE /* LoginViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		004F21B6242B4028006058CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				00FD627B242C6BDF00B6997B /* School.swift */,
+				00E5E123242CC420004C8F6E /* UserDetails.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		004F21BA242B405E006058CE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				004F21BB242B4071006058CE /* Services.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		004F21BF242B49E0006058CE /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				002B8581242C920C0039D1C2 /* Storyboarding.swift */,
+				004F21C0242B49ED006058CE /* AuthRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		004F21C3242B4C7E006058CE /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				004F21C4242B4C7E006058CE /* ViewModel */,
+				004F21C5242B4C7E006058CE /* Controller */,
+				004F21C6242B4C7E006058CE /* Model */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		004F21C4242B4C7E006058CE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				00E5E121242CAC6E004C8F6E /* EventsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		004F21C5242B4C7E006058CE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				004F21C7242B4C94006058CE /* EventsViewController.swift */,
+				004F21C9242B5713006058CE /* EventTablViewCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		004F21C6242B4C7E006058CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				004F21CB242B5A64006058CE /* EventModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		00E5E125242CD92C004C8F6E /* Utillitiy */ = {
+			isa = PBXGroup;
+			children = (
+				00E5E126242CD93C004C8F6E /* KeyboardToolbarButton.swift */,
+				00E5E128242CD94E004C8F6E /* KeyboardToolbar.swift */,
+			);
+			name = Utillitiy;
+			path = Educate/Source/Utillitiy;
+			sourceTree = SOURCE_ROOT;
+		};
+		0A94810B9E7DEC6E79A3EE9E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5DB87744800A8CBFEE622C58 /* Pods-Educate.debug.xcconfig */,
+				25D9DD1BCECA449C2B757F9C /* Pods-Educate.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		69D1D89999608BEF7F6B1AFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82BF1174064CD309926F8DFE /* Pods_Educate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +249,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 004F21A42429D098006058CE /* Build configuration list for PBXNativeTarget "Educate" */;
 			buildPhases = (
+				F2EB4824CEBDC060AD6A3A30 /* [CP] Check Pods Manifest.lock */,
 				004F218B2429D096006058CE /* Sources */,
 				004F218C2429D096006058CE /* Frameworks */,
 				004F218D2429D096006058CE /* Resources */,
+				B956BD36E2E597ABE85416DD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,18 +305,78 @@
 				004F21A02429D098006058CE /* LaunchScreen.storyboard in Resources */,
 				004F219D2429D098006058CE /* Assets.xcassets in Resources */,
 				004F21982429D096006058CE /* Main.storyboard in Resources */,
+				004F21AE242A999E006058CE /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B956BD36E2E597ABE85416DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Educate/Pods-Educate-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Educate/Pods-Educate-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Educate/Pods-Educate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2EB4824CEBDC060AD6A3A30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Educate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		004F218B2429D096006058CE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				004F21B9242B4028006058CE /* LoginViewController.swift in Sources */,
+				004F21CA242B5713006058CE /* EventTablViewCell.swift in Sources */,
+				004F21C8242B4C94006058CE /* EventsViewController.swift in Sources */,
+				00FD627A242C6ACF00B6997B /* SchoolsViewController.swift in Sources */,
+				004F21CE242B7DD3006058CE /* SplashViewController.swift in Sources */,
+				002B8582242C920C0039D1C2 /* Storyboarding.swift in Sources */,
+				004F21BC242B4071006058CE /* Services.swift in Sources */,
 				004F219B2429D096006058CE /* Educate.xcdatamodeld in Sources */,
-				004F21952429D096006058CE /* ViewController.swift in Sources */,
+				00E5E127242CD93D004C8F6E /* KeyboardToolbarButton.swift in Sources */,
+				00FD627C242C6BDF00B6997B /* School.swift in Sources */,
+				004F21BE242B407E006058CE /* AuthViewModel.swift in Sources */,
+				00E5E122242CAC6E004C8F6E /* EventsViewModel.swift in Sources */,
+				004F21B8242B4028006058CE /* ForgotPasswordViewController.swift in Sources */,
+				002B8580242C8A150039D1C2 /* SchoolTableViewCell.swift in Sources */,
+				004F21CC242B5A64006058CE /* EventModel.swift in Sources */,
+				00E5E124242CC420004C8F6E /* UserDetails.swift in Sources */,
+				00E5E129242CD94E004C8F6E /* KeyboardToolbar.swift in Sources */,
+				004F21B7242B4028006058CE /* SignUpViewController.swift in Sources */,
+				004F21C1242B49ED006058CE /* AuthRouter.swift in Sources */,
 				004F21932429D096006058CE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +521,7 @@
 		};
 		004F21A52429D098006058CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DB87744800A8CBFEE622C58 /* Pods-Educate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +540,7 @@
 		};
 		004F21A62429D098006058CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25D9DD1BCECA449C2B757F9C /* Pods-Educate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
