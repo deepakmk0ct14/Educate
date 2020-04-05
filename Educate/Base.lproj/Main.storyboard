@@ -791,7 +791,7 @@
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="796.875"/>
         </scene>
-        <!--Events Create View Controller-->
+        <!--Create event-->
         <scene sceneID="os3-Md-f42">
             <objects>
                 <viewController id="lPJ-GY-fD7" customClass="EventsCreateViewController" customModule="Educate" customModuleProvider="target" sceneMemberID="viewController">
@@ -866,7 +866,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="9Ft-4y-wSu"/>
                     </view>
-                    <navigationItem key="navigationItem" id="xFM-E0-KRX">
+                    <navigationItem key="navigationItem" title="Create event" id="xFM-E0-KRX">
                         <barButtonItem key="rightBarButtonItem" style="plain" id="zlK-mw-1b4">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="tPt-Ij-jUg">
                                 <rect key="frame" x="302" y="5.5" width="92" height="33"/>
