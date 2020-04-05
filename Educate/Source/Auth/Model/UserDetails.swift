@@ -7,9 +7,10 @@
 //
 import Foundation
 struct UserDetails {
+    let name: String
     let email: String
-    let password: String
     let school: School?
+    let isTeacher: Bool?
 }
 
 

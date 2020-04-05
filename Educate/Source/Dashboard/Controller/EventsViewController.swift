@@ -19,7 +19,14 @@ class EventsViewController: UIViewController, AuthRouter, Storyboarding {
     @IBOutlet weak var mTableView: UITableView!
     let mAuthViewModel = AuthViewModel()
     let mviewModel = EventsViewModel()
+    @IBOutlet weak var mDoneButton: UIButton!
     var dataSource = [Event]() {
+        didSet {
+            mTableView.isHidden = dataSource.count <= 0
+            mLoadingLabel.isHidden = !mTableView.isHidden
+        }
+    }
+    var otherSchoolDataSource = [Event]() {
         didSet {
             mTableView.isHidden = dataSource.count <= 0
             mLoadingLabel.isHidden = !mTableView.isHidden
@@ -27,9 +34,13 @@ class EventsViewController: UIViewController, AuthRouter, Storyboarding {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        mDoneButton.isHidden = !(SharedDatasource.datasource.userDetails?.isTeacher ?? false)
         mTableView.delegate = self
         mTableView.dataSource = self
         realTimeData()
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
         mviewModel.getEvents { (events) in
             self.dataSource = events
             self.mTableView.reloadData()

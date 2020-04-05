@@ -15,6 +15,9 @@ class SignUpViewController: UIViewController, AuthRouter, Storyboarding {
     @IBOutlet weak var mPassword: UITextField!
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var mErrorLabel: UILabel!
+    @IBOutlet weak var mSchoolButton: UIButton!
+    @IBOutlet weak var isTeacherSwitch: UISwitch!
+    var school: School?
     let mViewModel = AuthViewModel()
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,10 +34,11 @@ class SignUpViewController: UIViewController, AuthRouter, Storyboarding {
     
     @IBAction func onSignUpButton(_ sender: Any) {
         mErrorLabel.isHidden = true
-        guard let userName = mUsername.text, let password = mPassword.text else {
+        guard let userName = mUsername.text, let password = mPassword.text, let name = mFullName.text, let _school = school else {
             return
         }
-        mViewModel.signUp(email: userName, passowrd: password, success: {
+        let userModel = UserDetails(name:  name, email: userName, school: _school,isTeacher: isTeacherSwitch.isOn)
+        mViewModel.signUp(userDetails: userModel, passowrd: password, success: {
             self.onLoginSuccess()
         }) { (error) in
             self.mErrorLabel.text = error
@@ -44,6 +48,12 @@ class SignUpViewController: UIViewController, AuthRouter, Storyboarding {
     
     @IBAction func onSigIn(_ sender: Any) {
         onLogout()
+    }
+    @IBAction func onSelectSchool(_ sender: Any) {
+        onSchoolsScreen { (school) in
+            self.mSchoolButton.setTitle(school.name, for: .normal)
+            self.school = school
+        }
     }
     
     @objc func keyboardWillShow(notification:NSNotification){

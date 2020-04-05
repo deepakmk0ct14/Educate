@@ -17,4 +17,9 @@ class EventsViewModel {
     func getEvents(onCompletion: @escaping (([Event])->Void)) {
         service.getEventsList(onCompletion: onCompletion)
     }
+    func createEventWithEventDetails(event:Event, onCompletion completion: @escaping ((_ isSuccess: Bool)->Void)) {
+        service.createEvent(event: event) { (isSuccess) in
+            completion(isSuccess)
+        }
+    }
 }

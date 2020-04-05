@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>851450665918-st6uh242oubnmet5ssao394t00qpbngk.apps.googleusercontent.com</string>
+	<string>1077888298122-f5lub7hsdig7mjou5u223fthdpvqi1vk.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.851450665918-st6uh242oubnmet5ssao394t00qpbngk</string>
+	<string>com.googleusercontent.apps.1077888298122-f5lub7hsdig7mjou5u223fthdpvqi1vk</string>
 	<key>API_KEY</key>
-	<string>AIzaSyDGb9iu-C9vXr6-q5dLZ_cAjQNlD5s-P4U</string>
+	<string>AIzaSyC6VXHHsgnyru0r55TGnRAMZmLqx6vHNzY</string>
 	<key>GCM_SENDER_ID</key>
-	<string>851450665918</string>
+	<string>1077888298122</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.philips.Educate</string>
+	<string>com.DMN.Dronalaya</string>
 	<key>PROJECT_ID</key>
-	<string>educate-e4215</string>
+	<string>dronalaya-82988</string>
 	<key>STORAGE_BUCKET</key>
-	<string>educate-e4215.appspot.com</string>
+	<string>dronalaya-82988.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,8 +29,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:851450665918:ios:ae196753406d10e23537ef</string>
+	<string>1:1077888298122:ios:f52091cf57da9e66501173</string>
 	<key>DATABASE_URL</key>
-	<string>https://educate-e4215.firebaseio.com</string>
+	<string>https://dronalaya-82988.firebaseio.com</string>
 </dict>
 </plist>

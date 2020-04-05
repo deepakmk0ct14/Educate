@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		002B8580242C8A150039D1C2 /* SchoolTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B857F242C8A150039D1C2 /* SchoolTableViewCell.swift */; };
 		002B8582242C920C0039D1C2 /* Storyboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B8581242C920C0039D1C2 /* Storyboarding.swift */; };
+		004BFB4F2438E26E00609713 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 004BFB4E2438E26E00609713 /* GoogleService-Info.plist */; };
+		004BFB51243A4F4300609713 /* EventsCreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004BFB50243A4F4300609713 /* EventsCreateViewController.swift */; };
+		004BFB53243A60AA00609713 /* SharedDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004BFB52243A60AA00609713 /* SharedDatasource.swift */; };
 		004F21932429D096006058CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F21922429D096006058CE /* AppDelegate.swift */; };
 		004F21982429D096006058CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 004F21962429D096006058CE /* Main.storyboard */; };
 		004F219B2429D096006058CE /* Educate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 004F21992429D096006058CE /* Educate.xcdatamodeld */; };
 		004F219D2429D098006058CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 004F219C2429D098006058CE /* Assets.xcassets */; };
 		004F21A02429D098006058CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 004F219E2429D098006058CE /* LaunchScreen.storyboard */; };
-		004F21AE242A999E006058CE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 004F21AD242A999E006058CE /* GoogleService-Info.plist */; };
 		004F21B7242B4028006058CE /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F21B3242B4028006058CE /* SignUpViewController.swift */; };
 		004F21B8242B4028006058CE /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F21B4242B4028006058CE /* ForgotPasswordViewController.swift */; };
 		004F21B9242B4028006058CE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F21B5242B4028006058CE /* LoginViewController.swift */; };
@@ -37,14 +39,16 @@
 /* Begin PBXFileReference section */
 		002B857F242C8A150039D1C2 /* SchoolTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolTableViewCell.swift; sourceTree = "<group>"; };
 		002B8581242C920C0039D1C2 /* Storyboarding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboarding.swift; sourceTree = "<group>"; };
-		004F218F2429D096006058CE /* Educate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Educate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		004BFB4E2438E26E00609713 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		004BFB50243A4F4300609713 /* EventsCreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsCreateViewController.swift; sourceTree = "<group>"; };
+		004BFB52243A60AA00609713 /* SharedDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedDatasource.swift; sourceTree = "<group>"; };
+		004F218F2429D096006058CE /* Dronalaya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dronalaya.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		004F21922429D096006058CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		004F21972429D096006058CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		004F219A2429D096006058CE /* Educate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Educate.xcdatamodel; sourceTree = "<group>"; };
 		004F219C2429D098006058CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		004F219F2429D098006058CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		004F21A12429D098006058CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		004F21AD242A999E006058CE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		004F21B3242B4028006058CE /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		004F21B4242B4028006058CE /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		004F21B5242B4028006058CE /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -91,7 +95,7 @@
 		004F21902429D096006058CE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				004F218F2429D096006058CE /* Educate.app */,
+				004F218F2429D096006058CE /* Dronalaya.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,8 +103,8 @@
 		004F21912429D096006058CE /* Educate */ = {
 			isa = PBXGroup;
 			children = (
+				004BFB4E2438E26E00609713 /* GoogleService-Info.plist */,
 				004F21AF242B4028006058CE /* Source */,
-				004F21AD242A999E006058CE /* GoogleService-Info.plist */,
 				004F21962429D096006058CE /* Main.storyboard */,
 				004F219C2429D098006058CE /* Assets.xcassets */,
 				004F219E2429D098006058CE /* LaunchScreen.storyboard */,
@@ -202,6 +206,7 @@
 			isa = PBXGroup;
 			children = (
 				004F21C7242B4C94006058CE /* EventsViewController.swift */,
+				004BFB50243A4F4300609713 /* EventsCreateViewController.swift */,
 				004F21C9242B5713006058CE /* EventTablViewCell.swift */,
 			);
 			path = Controller;
@@ -220,6 +225,7 @@
 			children = (
 				00E5E126242CD93C004C8F6E /* KeyboardToolbarButton.swift */,
 				00E5E128242CD94E004C8F6E /* KeyboardToolbar.swift */,
+				004BFB52243A60AA00609713 /* SharedDatasource.swift */,
 			);
 			name = Utillitiy;
 			path = Educate/Source/Utillitiy;
@@ -261,7 +267,7 @@
 			);
 			name = Educate;
 			productName = Educate;
-			productReference = 004F218F2429D096006058CE /* Educate.app */;
+			productReference = 004F218F2429D096006058CE /* Dronalaya.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -303,9 +309,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				004F21A02429D098006058CE /* LaunchScreen.storyboard in Resources */,
+				004BFB4F2438E26E00609713 /* GoogleService-Info.plist in Resources */,
 				004F219D2429D098006058CE /* Assets.xcassets in Resources */,
 				004F21982429D096006058CE /* Main.storyboard in Resources */,
-				004F21AE242A999E006058CE /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +367,7 @@
 				004F21B9242B4028006058CE /* LoginViewController.swift in Sources */,
 				004F21CA242B5713006058CE /* EventTablViewCell.swift in Sources */,
 				004F21C8242B4C94006058CE /* EventsViewController.swift in Sources */,
+				004BFB51243A4F4300609713 /* EventsCreateViewController.swift in Sources */,
 				00FD627A242C6ACF00B6997B /* SchoolsViewController.swift in Sources */,
 				004F21CE242B7DD3006058CE /* SplashViewController.swift in Sources */,
 				002B8582242C920C0039D1C2 /* Storyboarding.swift in Sources */,
@@ -378,6 +385,7 @@
 				004F21B7242B4028006058CE /* SignUpViewController.swift in Sources */,
 				004F21C1242B49ED006058CE /* AuthRouter.swift in Sources */,
 				004F21932429D096006058CE /* AppDelegate.swift in Sources */,
+				004BFB53243A60AA00609713 /* SharedDatasource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -527,12 +535,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VU6MNT65G5;
 				INFOPLIST_FILE = Educate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.philips.Educate;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Dronalaya;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -546,12 +555,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VU6MNT65G5;
 				INFOPLIST_FILE = Educate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.philips.Educate;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Dronalaya;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

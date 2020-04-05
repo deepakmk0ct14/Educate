@@ -14,10 +14,13 @@ class AuthViewModel  {
     init(service : ServicesType = Services()) {
         self.service = service
     }
-    func signUp(email: String, passowrd: String, success: @escaping (()-> Void), error: @escaping ((_ error: String?)-> Void)) {
-        service.signUpWithEmail(email: email, withPassword: passowrd) { (status, errorDetails) in
+    func signUp(userDetails: UserDetails, passowrd: String, success: @escaping (()-> Void), error: @escaping ((_ error: String?)-> Void)) {
+        service.signUpWithEmail(userDetails: userDetails, withPassword: passowrd) { (status, errorDetails) in
             if(status) {
-                success()
+                self.service.getUserDetails(email: userDetails.email) { (user) in
+                    SharedDatasource.datasource.userDetails = user
+                    success()
+                }
             }else{
                 error(errorDetails)
             }
@@ -27,7 +30,10 @@ class AuthViewModel  {
     func signIn(email: String, passowrd: String, success: @escaping (()-> Void), error: @escaping ((_ error: String?)-> Void)){
         service.signInWithEmail(email: email, withPassword: passowrd) { (status, errorDetails) in
             if(status) {
-                success()
+                self.service.getUserDetails(email: email) { (user) in
+                    SharedDatasource.datasource.userDetails = user
+                    success()
+                }
             }else{
                 error(errorDetails)
             }
