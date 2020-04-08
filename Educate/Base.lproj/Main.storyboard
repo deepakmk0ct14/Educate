@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -11,7 +10,7 @@
         <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="LoginViewController" id="BYZ-38-t0r" customClass="LoginViewController" customModule="Educate" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="BYZ-38-t0r" customClass="LoginViewController" customModule="Dronalaya" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -56,7 +55,7 @@
                                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="User name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EiS-Nl-039">
                                                                         <rect key="frame" x="0.0" y="0.0" width="350" height="40"/>
                                                                         <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="16"/>
-                                                                        <textInputTraits key="textInputTraits"/>
+                                                                        <textInputTraits key="textInputTraits" returnKeyType="done"/>
                                                                     </textField>
                                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ETa-Ub-IPj">
                                                                         <rect key="frame" x="0.0" y="56" width="350" height="40"/>
@@ -177,7 +176,7 @@
         <!--Events-->
         <scene sceneID="aMW-ed-vO8">
             <objects>
-                <viewController id="vbO-xH-Zgw" customClass="EventsViewController" customModule="Educate" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vbO-xH-Zgw" customClass="EventsViewController" customModule="Dronalaya" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VnM-X4-lmg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -192,7 +191,7 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <color key="backgroundColor" red="0.93333333330000001" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="EventTablViewCell" id="DMh-z1-OdO" customClass="EventTablViewCell" customModule="Educate" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="EventTablViewCell" id="DMh-z1-OdO" customClass="EventTablViewCell" customModule="Dronalaya" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="124"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="DMh-z1-OdO" id="Ixq-gn-aIR">
@@ -302,7 +301,7 @@
                     <navigationItem key="navigationItem" title="Events" id="UWv-eE-nDc">
                         <barButtonItem key="leftBarButtonItem" style="plain" id="RsM-Z1-htH">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="V5b-19-gpT">
-                                <rect key="frame" x="20" y="2" width="40" height="40"/>
+                                <rect key="frame" x="20" y="0.0" width="58" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <inset key="imageEdgeInsets" minX="8" minY="8" maxX="8" maxY="8"/>
                                 <state key="normal" image="SignOut">
@@ -348,7 +347,7 @@
         <!--Sign Up View Controller-->
         <scene sceneID="g0j-E0-0jY">
             <objects>
-                <viewController storyboardIdentifier="SignUpViewController" id="LoL-iL-Ucj" customClass="SignUpViewController" customModule="Educate" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SignUpViewController" id="LoL-iL-Ucj" customClass="SignUpViewController" customModule="Dronalaya" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="U5b-iw-PXY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -396,12 +395,12 @@
                                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Full name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="k68-sK-Jw5">
                                                                         <rect key="frame" x="0.0" y="0.0" width="350" height="40"/>
                                                                         <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="16"/>
-                                                                        <textInputTraits key="textInputTraits"/>
+                                                                        <textInputTraits key="textInputTraits" returnKeyType="done"/>
                                                                     </textField>
                                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email Id" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ytM-yi-yJL">
                                                                         <rect key="frame" x="0.0" y="56" width="350" height="40"/>
                                                                         <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="16"/>
-                                                                        <textInputTraits key="textInputTraits"/>
+                                                                        <textInputTraits key="textInputTraits" returnKeyType="done"/>
                                                                     </textField>
                                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AE8-6a-bQQ">
                                                                         <rect key="frame" x="0.0" y="112" width="350" height="40"/>
@@ -409,7 +408,7 @@
                                                                             <constraint firstAttribute="height" constant="40" id="YzV-qH-zZ0"/>
                                                                         </constraints>
                                                                         <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="16"/>
-                                                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                                                        <textInputTraits key="textInputTraits" returnKeyType="done" secureTextEntry="YES"/>
                                                                     </textField>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4im-q4-yeG">
                                                                         <rect key="frame" x="0.0" y="168" width="350" height="40"/>
@@ -546,7 +545,7 @@
         <!--Forgot Password View Controller-->
         <scene sceneID="4ld-Xt-tzf">
             <objects>
-                <viewController id="y1l-CR-iey" customClass="ForgotPasswordViewController" customModule="Educate" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="y1l-CR-iey" customClass="ForgotPasswordViewController" customModule="Dronalaya" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dEQ-yN-OKK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -634,7 +633,7 @@
         <!--Splash View Controller-->
         <scene sceneID="3XB-0Z-jhD">
             <objects>
-                <viewController id="vjD-iV-1aX" customClass="SplashViewController" customModule="Educate" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vjD-iV-1aX" customClass="SplashViewController" customModule="Dronalaya" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NOl-A7-8yz">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -666,7 +665,7 @@
         <!--Schools View Controller-->
         <scene sceneID="S4q-rN-9zH">
             <objects>
-                <viewController storyboardIdentifier="SchoolsViewController" id="yX1-bE-DpT" customClass="SchoolsViewController" customModule="Educate" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SchoolsViewController" id="yX1-bE-DpT" customClass="SchoolsViewController" customModule="Dronalaya" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ew3-BU-08L">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -687,7 +686,7 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <color key="backgroundColor" red="0.93333333330000001" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SchoolCells" rowHeight="148" id="wzO-MK-eZd" customClass="SchoolTableViewCell" customModule="Educate" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SchoolCells" rowHeight="148" id="wzO-MK-eZd" customClass="SchoolTableViewCell" customModule="Dronalaya" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="148"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wzO-MK-eZd" id="onR-Ps-nQM">
@@ -794,7 +793,7 @@
         <!--Create event-->
         <scene sceneID="os3-Md-f42">
             <objects>
-                <viewController id="lPJ-GY-fD7" customClass="EventsCreateViewController" customModule="Educate" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="lPJ-GY-fD7" customClass="EventsCreateViewController" customModule="Dronalaya" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RCb-Du-ODB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -893,7 +892,7 @@
     </scenes>
     <resources>
         <image name="SignOut" width="29" height="29"/>
-        <image name="arrow.down.square" catalog="system" width="128" height="114"/>
-        <image name="arrowtriangle.down.circle" catalog="system" width="128" height="121"/>
+        <image name="arrow.down.square" catalog="system" width="64" height="56"/>
+        <image name="arrowtriangle.down.circle" catalog="system" width="64" height="60"/>
     </resources>
 </document>
